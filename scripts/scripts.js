@@ -78,7 +78,7 @@ function changeModel() {
     - finally, attach this function to the "Change Duration" pseudo-button, so it runs whenever the button is clicked.
 */
 
-let durationButton
+let durationButton;
 
 function changeDuration() {
     let durationText = document.getElementById("duration-text");
